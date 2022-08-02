@@ -1,0 +1,479 @@
+/*
+Template Name: Dos
+Template URL: https://www.codesymbol.com/templates/dos/
+Version: 1.0
+Author: CodeSymbol
+Author URL: https://themeforest.net/user/codesymbol/
+*/
+
+
+/*
+================================================================
+================================================================
+	Basic Styles
+================================================================
+================================================================
+*/
+
+    @font-face {
+        font-family: 'montserrat_regular';
+        src: url('../includes/font/montserrat-regular-webfont.eot');
+        src: url('../includes/font/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../includes/font/montserrat-regular-webfont.woff') format('woff'),
+             url('../includes/font/montserrat-regular-webfont.ttf') format('truetype'),
+             url('../includes/font/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    }
+    @font-face {
+        font-family: 'montserrat_semibold';
+        src: url('../includes/font/montserrat-semibold-webfont.eot');
+        src: url('../includes/font/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../includes/font/montserrat-semibold-webfont.woff') format('woff'),
+             url('../includes/font/montserrat-semibold-webfont.ttf') format('truetype'),
+             url('../includes/font/montserrat-semibold-webfont.svg#montserratsemi_bold') format('svg');
+    }
+    @font-face {
+        font-family: 'montserrat_bold';
+        src: url('../includes/font/montserrat-bold-webfont.eot');
+        src: url('../includes/font/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../includes/font/montserrat-bold-webfont.woff') format('woff'),
+             url('../includes/font/montserrat-bold-webfont.ttf') format('truetype'),
+             url('../includes/font/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    }
+    html {
+        overflow: auto;
+        margin: 0!important; /* Fix for magnific popup */
+    }
+    body {
+    	z-index: 0;
+        overflow: auto;
+    	font-size: 16px;
+    	line-height: 28px;
+        letter-spacing: 0;
+    	font-family: montserrat_regular, arial;
+    }
+    p {
+        margin-bottom: 20px;
+        -webkit-font-smoothing: antialiased;
+    }
+    a {
+        font-family: montserrat_bold;
+    }
+    ul {
+        font-size: 0;
+    }
+    ul li {
+        font-size: 16px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+    	position: relative;
+    	font-family: montserrat_bold;
+    	margin-bottom: 25px;
+    }
+    h1 {
+    	font-size: 38px;
+    	line-height: 48px;
+    }
+    h2 {
+    	font-size: 28px;
+    	line-height: 38px;
+    }
+    h3 {
+    	font-size: 20px;
+    	line-height: 35px;
+        letter-spacing: 0;
+    }
+    h4 {
+    	font-size: 18px;
+    	line-height: 31px;
+        letter-spacing: 0;
+    }
+    h5 {
+    	font-size: 14px;
+    	line-height: 25px;
+        letter-spacing: 0;
+    }
+    h6 {
+    	font-size: 13px;
+    	line-height: 20px;
+        letter-spacing: 0;
+    }
+    .font-bold {
+        font-family: montserrat_bold;
+    }
+    .font-semibold {
+        font-family: montserrat_semibold;
+    }
+    .font-regular {
+        font-family: montserrat_regular;
+    }
+
+
+/*
+================================================================
+================================================================
+	Header Styles
+================================================================
+================================================================
+*/
+
+
+    /* ---------------------- */
+    /* Intro                  */
+    /* ---------------------- */
+        header {
+            text-align: center;
+            padding: 90px 0;
+            border-bottom: 1px solid;
+        }
+        header img {
+            margin-bottom: 90px;
+        }
+        header h5 {
+            font-size: 12px;
+        }
+        header .links {
+
+        }
+        header .links .col {
+            display: inline-block;
+            min-width: 400px;
+        }
+        header .links .col:first-child {
+
+        }
+        header .links .col:last-child {
+
+        }
+        header .links .col span {
+            cursor: default;
+            display: block;
+        }
+        header .links .col a {
+            text-decoration: underline;
+        }
+        header .links .col:nth-child(3) a {
+            cursor: default;
+        }
+
+
+    /* ---------------------- */
+    /* Nav                    */
+    /* ---------------------- */
+        nav {
+            cursor: default;
+            position: absolute;
+            top: 276px;
+            left: 60px;
+            width: 260px;
+        }
+        nav.fixed {
+            position: fixed;
+        }
+        nav ul {
+            margin-bottom: 20px;
+            list-style: none;
+        }
+        nav ul li {
+            list-style: none;
+            font-size: 14px;
+        }
+        nav ul li a {
+            padding: 4px 15px;
+            border: 1px solid;
+            font-size: 14px;
+            display: block;
+            border-bottom: 0;
+            font-family: montserrat_regular;
+        }
+        nav ul li:last-child a {
+            border-bottom: 1px solid;
+        }
+        nav ul.has-heading li:first-child {
+            padding: 4px 15px;
+            font-family: montserrat_bold;
+        }
+
+
+/*
+================================================================
+================================================================
+    Footer Styles
+================================================================
+================================================================
+*/
+
+    footer {
+        height: 50px;
+        text-align: center;
+        cursor: default;
+    }
+    footer a {
+        text-decoration: underline;
+    }
+
+
+/*
+================================================================
+================================================================
+    Elements
+================================================================
+================================================================
+*/
+
+    /* ---------------------- */
+    /* Image PopUp            */
+    /* ---------------------- */
+        .mfp-bg {
+            opacity: 0.85;
+        }
+        .mfp-container .mfp-close {
+            top: -25px;
+        }
+        .mfp-container .arrow-left,
+        .mfp-container .arrow-right {
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            width: 52px;
+            height: 30px;
+            background: none;
+            border: 0;
+            cursor: pointer;
+            -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
+        .mfp-container .arrow-right {
+            left: auto;
+            right: 50px;
+        }
+        .mfp-container .arrow-left:before,
+        .mfp-container .arrow-right:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 14px;
+            width: 30px;
+            height: 2px;
+        }
+        .mfp-container .arrow-left:before {
+            left: 15px;
+        }
+        .mfp-container .arrow-right:before {
+            right: 15px;
+        }
+        .mfp-container .arrow-left:after,
+        .mfp-container .arrow-right:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 11px;
+            border: 4px solid transparent;
+        }
+        .mfp-container .arrow-left:after {
+            left: 2px;
+            border-right: 10px solid;
+        }
+        .mfp-container .arrow-right:after {
+            right: 2px;
+            border-left: 10px solid;
+        }
+        .mfp-container .arrow-left:hover:before, 
+        .mfp-container .arrow-right:hover:before {
+        }
+        .mfp-container .arrow-left:hover:after {
+            border-right: 10px solid;
+        }
+        .mfp-container .arrow-right:hover:after {
+            border-left: 10px solid;
+        }
+        .mfp-container .mfp-bottom-bar {
+            margin-top: -10px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            cursor: default;
+            text-align: center;
+        }
+        .mfp-container .mfp-title {
+            text-align: center;
+            line-height: 18px;
+            word-wrap: break-word;
+            padding: 0 36px;
+            font-size: 20px;
+        }
+        .mfp-container .mfp-close {
+            font-size: 30px;
+        }
+        .mfp-image-holder .mfp-content {
+            height: 85%;
+        }
+        .mfp-gallery .mfp-image-holder .mfp-figure {
+            height: 100%;
+            position: relative;
+        }
+        .mfp-figure figure {
+            height: 100%;
+            position: relative;
+        }
+        img.mfp-img {
+            height: 100%;
+        }
+
+
+    /* ---------------------- */
+    /* Dividers               */
+    /* ---------------------- */
+        .divider10 {
+            height: 10px;
+            clear: both;
+        }
+        .divider20 {
+            height: 20px;
+            clear: both;
+        }
+        .divider30 {
+            height: 30px;
+            clear: both;
+        }
+        .divider40 {
+            height: 40px;
+            clear: both;
+        }
+        .divider50 {
+            height: 50px;
+            clear: both;
+        }
+        .divider60 {
+            height: 60px;
+            clear: both;
+        }
+        .divider70 {
+            height: 70px;
+            clear: both;
+        }
+        .divider80 {
+            height: 80px;
+            clear: both;
+        }
+        .divider90 {
+            height: 90px;
+            clear: both;
+        }
+        .divider100 {
+            height: 100px;
+            clear: both;
+        }
+
+
+    /* ---------------------- */
+    /* Grid Columns           */
+    /* ---------------------- */
+        .grid-row {
+            position: relative;
+        }
+        .grid-row:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .grid-row .column {
+            position: relative;
+            float: left;
+            padding: 0 40px 40px 0;
+        }
+        .grid-row .column.no-padding {
+            padding-right: 0;
+        }
+        .grid-row .column.full-width {
+            width: 100%;
+        }
+        .grid-row .column.one-half {
+            width: 50%;
+        }
+        .grid-row .column.one-third {
+            width: 33.3333%;
+        }
+        .grid-row .column.one-fourth {
+            width: 25%;
+        }
+        .grid-row .column.one-fifth {
+            width: 20%;
+        }
+        .grid-row .column.two-third {
+            width: 66.66666%;
+        }
+        .grid-row .column.two-fourth {
+            width: 50%;
+        }
+        .grid-row .column.two-fifth {
+            width: 40%;
+        }
+        .grid-row .column.three-fourth {
+            width: 75%;
+        }
+        .grid-row .column.three-fifth {
+            width: 60%;
+        }
+        .grid-row .column.four-fifth {
+            width: 80%;
+        }
+
+
+/*
+================================================================
+================================================================
+    Sections
+================================================================
+================================================================
+*/
+
+    main {
+        position: relative;
+        z-index: 1;
+        margin-left: 420px;
+        padding: 80px 80px 80px 0;
+    }
+    section {
+        display: none;
+    }
+    section.active {
+        display: block;
+    }
+    section h2 {
+
+    }
+    section p {
+
+    }
+    section a {
+        text-decoration: underline;
+    }
+    section ol {
+
+    }
+    section ul {
+        
+    }
+    section li {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+
+/*
+================================================================
+================================================================
+    Transitions
+================================================================
+================================================================
+*/
+
+    nav ul li a {
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }

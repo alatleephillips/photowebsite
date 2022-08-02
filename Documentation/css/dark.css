@@ -1,0 +1,100 @@
+/*
+Template Name: Dos
+Template URL: https://www.codesymbol.com/templates/dos/
+Version: 1.0
+Author: CodeSymbol
+Author URL: https://themeforest.net/user/codesymbol/
+*/
+
+
+/*
+================================================================
+================================================================
+	Background Colors
+================================================================
+================================================================
+*/
+
+    html, 
+    body {
+        background-color: #d5d5d5;
+    }
+    nav ul li a:hover,
+    nav ul li a.active {
+        background-color: #b5b5b5;
+    }
+
+    nav ul.has-heading li:first-child {
+        background-color: #777;
+    }
+
+    ::selection {
+        background-color: #232323;
+    }
+    ::-moz-selection {
+        background-color: #232323;
+    }
+
+/*
+================================================================
+================================================================
+	Font Colors
+================================================================
+================================================================
+*/
+
+    body,
+    nav ul li a {
+    	color: #282828;
+    }
+
+    a, 
+    h1, 
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6,
+    .mfp-container .mfp-title,
+    .mfp-container .mfp-close,
+    nav ul.has-heading li:first-child,
+    nav ul li a:hover,
+    nav ul li a.active,
+    .light {
+        color: #000000;
+    }
+
+    ::selection {
+        color: #ffffff;
+    }
+    ::-moz-selection {
+        color: #ffffff;
+    }
+
+/*
+================================================================
+================================================================
+	Border Colors
+================================================================
+================================================================
+*/
+    
+    header,
+    nav ul li a,
+    nav ul li:last-child a {
+        border-color: #777;
+    }
+
+
+    .mfp-container .arrow-left:after {
+        border-right-color: #656565;
+    }
+    .mfp-container .arrow-left:hover:after {
+        border-right-color: #ffffff;
+    }
+    .mfp-container .arrow-right:after {
+        border-left-color: #656565;
+    }
+    .mfp-container .arrow-right:hover:after {
+        border-left-color: #ffffff;
+    }
