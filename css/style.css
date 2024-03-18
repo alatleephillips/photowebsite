@@ -250,7 +250,7 @@ Author URL: https://themeforest.net/user/codesymbol/
         .loader .line {
             position: absolute;
             top: 50%;
-            left: 20px;
+            left: 0px;
             width: calc(100% - 40px);
             height: 2px;
             background-color: #ccc;
@@ -283,6 +283,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             position: fixed;
             z-index: 99999;
             top: 50%;
+	    left: 0px;
             right: 100%;
             width: calc(100% - 40px);
             height: 2px;

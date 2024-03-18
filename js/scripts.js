@@ -33,19 +33,19 @@ $(document).ready(function() {
 		// Responsiveness
 			$("html").addClass(browser);
 
-			if(win_w > 1680) {
+			if(win_w > 1280) {
 
 				is_desktop 			= true;
 				is_tablet 			= false;
 				is_mobile 			= false;
 			}
-			else if(win_w <= 1300 && win_w > 1024) {
+			else if(win_w <= 1280 && win_w > 768) {
 
 				is_desktop 			= false;
 				is_tablet 			= true;
 				is_mobile 			= false;
 			}
-			else if(win_w <= 1024) {
+			else if(win_w <= 768) {
 
 				is_desktop 			= false;
 				is_tablet 			= false;
@@ -78,7 +78,7 @@ $(document).ready(function() {
 				clearTimeout(resizeTimer);
 				resizeTimer = setTimeout(function() {
 					draw(true);
-				}, 100);
+				}, 50);
 			});
 
 		// Videos

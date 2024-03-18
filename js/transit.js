@@ -38,7 +38,7 @@
     },
 
     // Will simply transition "instantly" if false
-    enabled: true,
+    enabled: false,
 
     // Set this to false if you don't want to use the transition end property.
     useTransitionEnd: false
